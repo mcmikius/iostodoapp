@@ -201,6 +201,8 @@
 		F831CEDBB3D43D96E14268074EC1DB16 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4A407D80D0F5AD849A44674551336F /* Realm.framework */; };
 		F8B9DDE315DC5E11C1F47D186F4F5B47 /* RLMSyncSessionRefreshHandle.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DC5933CFF1361B9957244A97A84F19 /* RLMSyncSessionRefreshHandle.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.10.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		F94223EB39BD3ECCDB6B6D7095C0159E /* RLMArray.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DA9D8608FEDE3B995087AA55124BF8 /* RLMArray.h */; };
+		FB707347216504EA00363EF8 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4A407D80D0F5AD849A44674551336F /* Realm.framework */; };
+		FB707348216504EB00363EF8 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4A407D80D0F5AD849A44674551336F /* Realm.framework */; };
 		FCD4D48BFDB12AFA017FFAD9FCE623B1 /* RLMCollection_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 20AB7A6120AB3049D735A58F95D3446F /* RLMCollection_Private.h */; };
 		FF5C871CBA2AA0530C3B2F1414AB008A /* RLMProperty_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 2D0A4F84240973C4F0EA59F3B2C7A2D9 /* RLMProperty_Private.h */; };
 		FFB5D7538EA7C4B97DAD8ACE5E1BDE8F /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5516699ECD11E73CD7B7502722AD9FD6 /* Migration.swift */; };
@@ -486,6 +488,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB707347216504EA00363EF8 /* Realm.framework in Frameworks */,
 				B46D898683842016E584A2BD7CE913EC /* Foundation.framework in Frameworks */,
 				F0784E60BDD1479E0DB30CA6C7A61D3D /* Security.framework in Frameworks */,
 			);
@@ -495,6 +498,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB707348216504EB00363EF8 /* Realm.framework in Frameworks */,
 				7284D6638308D013D9E28BEF274711FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

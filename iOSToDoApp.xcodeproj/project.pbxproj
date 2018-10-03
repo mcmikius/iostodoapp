@@ -10,11 +10,21 @@
 		E4C63AE71A188858FF9DCFA8 /* Pods_iOSToDoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC33F31AF9E8B988367D8F7 /* Pods_iOSToDoApp.framework */; };
 		FB5C79D62164EB43004750DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5C79D52164EB43004750DF /* AppDelegate.swift */; };
 		FB5C79D82164EB43004750DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5C79D72164EB43004750DF /* ViewController.swift */; };
-		FB5C79DB2164EB43004750DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5C79D92164EB43004750DF /* Main.storyboard */; };
 		FB5C79DD2164EB44004750DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5C79DC2164EB44004750DF /* Assets.xcassets */; };
 		FB5C79E02164EB44004750DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5C79DE2164EB44004750DF /* LaunchScreen.storyboard */; };
 		FB5C79EB2164EB44004750DF /* iOSToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5C79EA2164EB44004750DF /* iOSToDoAppTests.swift */; };
 		FB5C79F62164EB44004750DF /* iOSToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5C79F52164EB44004750DF /* iOSToDoAppUITests.swift */; };
+		FB707346216503F300363EF8 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB707345216503F300363EF8 /* ItemsViewController.swift */; };
+		FB707349216504F200363EF8 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB707345216503F300363EF8 /* ItemsViewController.swift */; };
+		FB70734A216504F200363EF8 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB707345216503F300363EF8 /* ItemsViewController.swift */; };
+		FB7426692164F5EF00CCE6AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB7426682164F5EF00CCE6AE /* Default-568h@2x.png */; };
+		FB74266B2164F74100CCE6AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74266A2164F74100CCE6AE /* Constants.swift */; };
+		FB74266D2164F9C500CCE6AE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74266C2164F9C500CCE6AE /* WelcomeViewController.swift */; };
+		FB74266F2164FA7100CCE6AE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74266E2164FA7100CCE6AE /* Item.swift */; };
+		FB7426742165001A00CCE6AE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74266E2164FA7100CCE6AE /* Item.swift */; };
+		FB7426752165001B00CCE6AE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74266E2164FA7100CCE6AE /* Item.swift */; };
+		FB7426762165001F00CCE6AE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74266C2164F9C500CCE6AE /* WelcomeViewController.swift */; };
+		FB7426772165001F00CCE6AE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74266C2164F9C500CCE6AE /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,16 +51,21 @@
 		FB5C79D22164EB43004750DF /* iOSToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5C79D52164EB43004750DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB5C79D72164EB43004750DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB5C79DA2164EB43004750DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB5C79DC2164EB44004750DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB5C79DF2164EB44004750DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FB5C79E12164EB44004750DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5C79E62164EB44004750DF /* iOSToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5C79EA2164EB44004750DF /* iOSToDoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSToDoAppTests.swift; sourceTree = "<group>"; };
 		FB5C79EC2164EB44004750DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5C79F12164EB44004750DF /* iOSToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5C79F52164EB44004750DF /* iOSToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSToDoAppUITests.swift; sourceTree = "<group>"; };
 		FB5C79F72164EB44004750DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB707345216503F300363EF8 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		FB7426652164F5D200CCE6AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		FB7426672164F5D500CCE6AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		FB7426682164F5EF00CCE6AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FB74266A2164F74100CCE6AE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FB74266C2164F9C500CCE6AE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FB74266E2164FA7100CCE6AE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +114,7 @@
 		FB5C79C92164EB42004750DF = {
 			isa = PBXGroup;
 			children = (
+				FB7426682164F5EF00CCE6AE /* Default-568h@2x.png */,
 				FB5C79D42164EB43004750DF /* iOSToDoApp */,
 				FB5C79E92164EB44004750DF /* iOSToDoAppTests */,
 				FB5C79F42164EB44004750DF /* iOSToDoAppUITests */,
@@ -121,12 +137,15 @@
 		FB5C79D42164EB43004750DF /* iOSToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				FB707345216503F300363EF8 /* ItemsViewController.swift */,
 				FB5C79D52164EB43004750DF /* AppDelegate.swift */,
+				FB74266A2164F74100CCE6AE /* Constants.swift */,
+				FB74266C2164F9C500CCE6AE /* WelcomeViewController.swift */,
+				FB74266E2164FA7100CCE6AE /* Item.swift */,
 				FB5C79D72164EB43004750DF /* ViewController.swift */,
-				FB5C79D92164EB43004750DF /* Main.storyboard */,
 				FB5C79DC2164EB44004750DF /* Assets.xcassets */,
 				FB5C79DE2164EB44004750DF /* LaunchScreen.storyboard */,
-				FB5C79E12164EB44004750DF /* Info.plist */,
+				FB7426662164F5D200CCE6AE /* Info.plist */,
 			);
 			path = iOSToDoApp;
 			sourceTree = "<group>";
@@ -256,8 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5C79E02164EB44004750DF /* LaunchScreen.storyboard in Resources */,
+				FB7426692164F5EF00CCE6AE /* Default-568h@2x.png in Resources */,
 				FB5C79DD2164EB44004750DF /* Assets.xcassets in Resources */,
-				FB5C79DB2164EB43004750DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +350,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB74266F2164FA7100CCE6AE /* Item.swift in Sources */,
+				FB707346216503F300363EF8 /* ItemsViewController.swift in Sources */,
 				FB5C79D82164EB43004750DF /* ViewController.swift in Sources */,
+				FB74266D2164F9C500CCE6AE /* WelcomeViewController.swift in Sources */,
 				FB5C79D62164EB43004750DF /* AppDelegate.swift in Sources */,
+				FB74266B2164F74100CCE6AE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +363,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7426762165001F00CCE6AE /* WelcomeViewController.swift in Sources */,
+				FB707349216504F200363EF8 /* ItemsViewController.swift in Sources */,
+				FB7426742165001A00CCE6AE /* Item.swift in Sources */,
 				FB5C79EB2164EB44004750DF /* iOSToDoAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +374,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7426772165001F00CCE6AE /* WelcomeViewController.swift in Sources */,
+				FB70734A216504F200363EF8 /* ItemsViewController.swift in Sources */,
+				FB7426752165001B00CCE6AE /* Item.swift in Sources */,
 				FB5C79F62164EB44004750DF /* iOSToDoAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,20 +397,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FB5C79D92164EB43004750DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB5C79DA2164EB43004750DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB5C79DE2164EB44004750DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FB5C79DF2164EB44004750DF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FB7426662164F5D200CCE6AE /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7426652164F5D200CCE6AE /* en */,
+				FB7426672164F5D500CCE6AE /* Base */,
+			);
+			name = Info.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
