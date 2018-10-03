@@ -5,9 +5,9 @@
 //  Created by Michail Bondarenko on 10/3/18.
 //  Copyright © 2018 Michail Bondarenko. All rights reserved.
 //
-
-import UIKit
 import RealmSwift
+import UIKit
+
 
 class WelcomeViewController: UIViewController {
 
