@@ -6,7 +6,6 @@
 //  Copyright © 2018 Michail Bondarenko. All rights reserved.
 //
 
-import Foundation
 import RealmSwift
 ​
 class Item: Object {

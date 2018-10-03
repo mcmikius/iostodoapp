@@ -17,6 +17,8 @@
 		FB707346216503F300363EF8 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB707345216503F300363EF8 /* ItemsViewController.swift */; };
 		FB707349216504F200363EF8 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB707345216503F300363EF8 /* ItemsViewController.swift */; };
 		FB70734A216504F200363EF8 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB707345216503F300363EF8 /* ItemsViewController.swift */; };
+		FB70734F21650CC000363EF8 /* iOSToDoAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = FB5C79E62164EB44004750DF /* iOSToDoAppTests.xctest */; };
+		FB70735021650CC400363EF8 /* iOSToDoAppUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = FB5C79F12164EB44004750DF /* iOSToDoAppUITests.xctest */; };
 		FB7426692164F5EF00CCE6AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB7426682164F5EF00CCE6AE /* Default-568h@2x.png */; };
 		FB74266B2164F74100CCE6AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74266A2164F74100CCE6AE /* Constants.swift */; };
 		FB74266D2164F9C500CCE6AE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74266C2164F9C500CCE6AE /* WelcomeViewController.swift */; };
@@ -274,9 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB70734F21650CC000363EF8 /* iOSToDoAppTests.xctest in Resources */,
 				FB5C79E02164EB44004750DF /* LaunchScreen.storyboard in Resources */,
 				FB7426692164F5EF00CCE6AE /* Default-568h@2x.png in Resources */,
 				FB5C79DD2164EB44004750DF /* Assets.xcassets in Resources */,
+				FB70735021650CC400363EF8 /* iOSToDoAppUITests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

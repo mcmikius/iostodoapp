@@ -13,9 +13,24 @@ class WelcomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(rightBarButtonDidClick))
         // Do any additional setup after loading the view.
     }
+    @objc func rightBarButtonDidClick() {
+        let alertController = UIAlertController(title: "Logout", message: "", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Yes, Logout", style: .destructive, handler: {
+            alert -> Void in
+            SyncUser.current?.logOut()
+            self.navigationController?.setViewControllers([WelcomeViewController()], animated: true)
+        }))
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+    
+
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         title = "Welcome"

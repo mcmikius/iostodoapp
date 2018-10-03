@@ -35,29 +35,9 @@ class ItemsViewController: UIViewController {
     }
 }
 
-override func viewDidLoad() {
-    super.viewDidLoad()
-    ​​
-    navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(rightBarButtonDidClick))
-}
 
-@objc func rightBarButtonDidClick() {
-    let alertController = UIAlertController(title: "Logout", message: "", preferredStyle: .alert)
-    alertController.addAction(UIAlertAction(title: "Yes, Logout", style: .destructive, handler: {
-        alert -> Void in
-        SyncUser.current?.logOut()
-        self.navigationController?.setViewControllers([WelcomeViewController()], animated: true)
-    }))
-    alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-    self.present(alertController, animated: true, completion: nil)
-}
-/*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+
 
